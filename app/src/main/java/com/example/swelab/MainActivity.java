@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //TODO: test to do
+
 
 
 
@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnClick(View view){
         TextView txtHello = findViewById(R.id.textView);
         EditText editTxtName = findViewById(R.id.editTxtName);
-        txtHello.setText("Hello "+editTxtName.getText().toString());
+        txtHello.setText( "Hello "+editTxtName.getText().toString());
     }
 }
